@@ -2,6 +2,7 @@ import { MapPin, Linkedin, Twitter, Mail } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 import ExternalLink from "@/components/ExternalLink";
 import Section from "@/components/Section";
+import BlogList from "@/components/BlogList";
 
 const Index = () => {
   return (
@@ -56,6 +57,11 @@ const Index = () => {
             ps: i'm most proud of all the things in <span className="text-proud">red</span> :)
           </p>
         </div>
+
+        {/* Good Reads */}
+        <Section title="good reads">
+          <BlogList />
+        </Section>
 
         {/* Past Work */}
         <Section title="past work">
