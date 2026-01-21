@@ -6,6 +6,8 @@ export interface BlogMeta {
   date: string;
   readTime: string;
   slug: string;
+  category?: string;
+  featured?: boolean;
 }
 
 export interface BlogPost {
@@ -25,3 +27,18 @@ export const blogs: BlogPost[] = blogModules.map((mod) => ({
 export const sortedBlogs = [...blogs].sort(
   (a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime()
 );
+
+// Featured blogs for homepage (max 3)
+export const featuredBlogs = sortedBlogs
+  .filter((blog) => blog.meta.featured)
+  .slice(0, 3);
+
+// Group blogs by category
+export const blogsByCategory = sortedBlogs.reduce((acc, blog) => {
+  const category = blog.meta.category || "uncategorized";
+  if (!acc[category]) {
+    acc[category] = [];
+  }
+  acc[category].push(blog);
+  return acc;
+}, {} as Record<string, BlogPost[]>);

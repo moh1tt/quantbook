@@ -2,7 +2,9 @@ export const meta = {
   title: "My First Blog Post",
   date: "2026-01-21",
   readTime: "3 min read",
-  slug: "example-post"
+  slug: "example-post",
+  category: "tech",
+  featured: true
 }
 
 # My First Blog Post
@@ -27,5 +29,7 @@ Simply create a new `.mdx` file in the `src/blogs` folder with the same structur
 - `date` - Publication date (YYYY-MM-DD)
 - `readTime` - Estimated reading time
 - `slug` - URL-friendly identifier (should match filename)
+- `category` - Category for grouping (e.g., "tech", "fashion", "life")
+- `featured` - Set to `true` to show on homepage (max 3 shown)
 
-That's it! Your post will automatically appear in the "good reads" section.
+That's it! Your post will automatically appear in the blogs section.

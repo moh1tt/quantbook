@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
-import { sortedBlogs } from "@/blogs";
+import { BlogPost } from "@/blogs";
 
-const BlogList = () => {
+interface BlogListProps {
+  blogs: BlogPost[];
+}
+
+const BlogList = ({ blogs }: BlogListProps) => {
   return (
     <div className="space-y-3">
-      {sortedBlogs.map((blog) => (
+      {blogs.map((blog) => (
         <Link
           key={blog.meta.slug}
           to={`/blog/${blog.meta.slug}`}
