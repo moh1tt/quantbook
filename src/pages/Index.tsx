@@ -29,7 +29,7 @@ const Index = () => {
             systematic trading strategies, backtesting frameworks, and data-driven financial models.
           </p>
           <p>
-            Currently, I'm building{" "}
+            Currently, I'm building{" atlas"}
             <ExternalLink href="#" proud>
               project name
             </ExternalLink>
