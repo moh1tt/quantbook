@@ -33,8 +33,7 @@ const Index = () => {
             <ExternalLink href="#" proud>
               atlas
             </ExternalLink>
-            , a tool that helps people do amazing things. We're focused on making complex processes simple and
-            accessible.
+            , a tool to make automated trades based on strategies and data.
           </p>
 
           <p>
