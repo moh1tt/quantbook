@@ -2,7 +2,6 @@ import { MapPin } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 import ExternalLink from "@/components/ExternalLink";
 import Section from "@/components/Section";
-import PhotoGallery from "@/components/PhotoGallery";
 
 const Index = () => {
   return (
@@ -60,33 +59,6 @@ const Index = () => {
           </p>
         </div>
 
-        {/* Pictures */}
-        <PhotoGallery />
-
-        {/* Building */}
-        <Section title="building">
-          <p>building an AI tool that helps automate workflows.</p>
-          <p>
-            <ExternalLink href="#" proud>
-              project name
-            </ExternalLink>{" "}
-            - a productivity tool for developers.
-          </p>
-        </Section>
-
-        {/* Startups */}
-        <Section title="startups I've built prev">
-          <p>
-            <ExternalLink href="#" proud>
-              startup.io
-            </ExternalLink>{" "}
-            — helped companies scale their operations with custom solutions.
-          </p>
-          <p>
-            <ExternalLink href="#">another.app</ExternalLink> - built a platform and processed $10,000 in transaction
-            volume.
-          </p>
-        </Section>
 
         {/* Past Work */}
         <Section title="past work">
@@ -130,42 +102,6 @@ const Index = () => {
           </p>
         </Section>
 
-        {/* Featured */}
-        <Section title="featured">
-          <p>
-            <ExternalLink href="#">tech blog feature</ExternalLink>
-          </p>
-          <p>
-            <ExternalLink href="#">podcast interview</ExternalLink>
-          </p>
-        </Section>
-
-        {/* Fellowships */}
-        <Section title="fellowships">
-          <p>
-            <ExternalLink href="#" proud>
-              fellowship program ('23)
-            </ExternalLink>
-          </p>
-          <p>
-            <ExternalLink href="#">accelerator program</ExternalLink>
-          </p>
-        </Section>
-
-        {/* Hobbies */}
-        <Section title="what I do apart from work">
-          <p>
-            <ExternalLink href="#">photography</ExternalLink> — my <ExternalLink href="#">portfolio</ExternalLink>
-          </p>
-        </Section>
-
-        {/* Toys */}
-        <Section title="my toys">
-          <p>mechanical keyboards</p>
-          <p>
-            <ExternalLink href="#">interesting gadget</ExternalLink>
-          </p>
-        </Section>
 
         {/* Tip */}
         <Section title="tip me">
