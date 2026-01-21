@@ -26,19 +26,8 @@ const Index = () => {
         <div className="space-y-6 mb-12 text-foreground leading-relaxed">
           <p>
             Hey! I’m Mohit, a python geek, developer and a data scientist passionate about quantitative finance. I build
-            systematic trading strategies, backtesting frameworks, and data-driven financial models. I enjoy writing
-            about finance, trading strategies, and my personal projects in the quant space. When I’m not deep in data or
-            markets, you’ll find me exploring new cafés, experimenting with coffee, dabbling in photography, or diving
-            further into the stock market.
+            systematic trading strategies, backtesting frameworks, and data-driven financial models.
           </p>
-
-          <p>
-            I'm a student at <ExternalLink href="https://www.fsu.edu/">florida state university</ExternalLink>, majoring
-            in Data Science. Currently working as a {"data analyst"}
-            <ExternalLink href="#">software engineer intern</ExternalLink> at{" "}
-            <ExternalLink href="#">Company</ExternalLink>.
-          </p>
-
           <p>
             Currently, I'm building{" "}
             <ExternalLink href="#" proud>
@@ -49,18 +38,14 @@ const Index = () => {
           </p>
 
           <p>
-            Outside of work, I'm passionate about exploring outdoors—whether it's hiking, photography, or traveling.
-            Find my adventures on <ExternalLink href="#">instagram</ExternalLink>.
+            Outside of work, I enjoy writing about finance, trading strategies, and my personal projects in the quant
+            space. When I’m not deep in data or markets, you’ll find me exploring new cafés, experimenting with coffee,
+            dabbling in photography, or diving further into the stock market.
           </p>
 
-          <p>
-            I've also been writing consistently for the past year on <ExternalLink href="#">twitter</ExternalLink> about
-            my learnings (professionally & personally) and the progress I make weekly.
-          </p>
-
-          <p className="italic text-muted-foreground">
+          {/* <p className="italic text-muted-foreground">
             ps: i'm most proud of all the things in <span className="text-proud">red</span> :)
-          </p>
+          </p> */}
         </div>
 
         {/* Good Reads */}
