@@ -17,7 +17,9 @@ const Index = () => {
             <MapPin className="w-4 h-4 text-proud" />
             <span>tallahassee, fl</span>
           </div>
-          <p className="text-muted-foreground">domains: software, product, AI, design</p>
+          <p className="text-muted-foreground">
+            domains: software, finance, ai, forecasting, backtesting, and systematic trading
+          </p>
         </header>
 
         {/* Bio */}
