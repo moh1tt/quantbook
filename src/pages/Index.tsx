@@ -61,10 +61,10 @@ const Index = () => {
         {/* Past Work */}
         <Section title="past work">
           <p>
-            <ExternalLink href="#">company.com</ExternalLink> - software engineer intern
+            <ExternalLink href="https://intranet.apd.myflorida.com/">APD</ExternalLink> - data analyst
           </p>
           <p>
-            <ExternalLink href="#">startup.io</ExternalLink> - product manager
+            <ExternalLink href="https://www.spglobal.com/en">startup.io</ExternalLink> - product manager
           </p>
           <p>
             read more on <ExternalLink href="#">linkedIn</ExternalLink> /{" "}
