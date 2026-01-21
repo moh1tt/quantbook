@@ -1,8 +1,10 @@
 import { MapPin, Linkedin, Twitter, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 import ThemeToggle from "@/components/ThemeToggle";
 import ExternalLink from "@/components/ExternalLink";
 import Section from "@/components/Section";
 import BlogList from "@/components/BlogList";
+import { featuredBlogs } from "@/blogs";
 
 const Index = () => {
   return (
@@ -60,7 +62,13 @@ const Index = () => {
 
         {/* Good Reads */}
         <Section title="good reads">
-          <BlogList />
+          <BlogList blogs={featuredBlogs} />
+          <Link
+            to="/blogs"
+            className="inline-block mt-4 text-muted-foreground hover:text-foreground transition-colors underline underline-offset-2 text-sm"
+          >
+            view all →
+          </Link>
         </Section>
 
         {/* Past Work */}
