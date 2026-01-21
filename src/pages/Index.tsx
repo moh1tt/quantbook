@@ -12,10 +12,10 @@ const Index = () => {
       <main className="max-w-2xl mx-auto px-6 py-16 md:py-24">
         {/* Header */}
         <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl text-foreground mb-3 font-medium">your name</h1>
+          <h1 className="text-4xl md:text-5xl text-foreground mb-3 font-medium">mohit appari</h1>
           <div className="flex items-center gap-1.5 text-muted-foreground mb-4">
             <MapPin className="w-4 h-4 text-proud" />
-            <span>your city, state</span>
+            <span>tallahassee, florida</span>
           </div>
           <p className="text-muted-foreground">
             domains: software, product, AI, design
