@@ -33,8 +33,8 @@ const Index = () => {
           </p>
 
           <p>
-            I'm a student at <ExternalLink href="https://www.fsu.edu/">University Name</ExternalLink>, majoring in
-            Computer Science. This past summer, I worked as a{" "}
+            I'm a student at <ExternalLink href="https://www.fsu.edu/">florida state university</ExternalLink>, majoring
+            in Data Science. Currently working as a {"data analyst"}
             <ExternalLink href="#">software engineer intern</ExternalLink> at{" "}
             <ExternalLink href="#">Company</ExternalLink>.
           </p>
