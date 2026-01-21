@@ -25,16 +25,17 @@ const Index = () => {
         {/* Bio */}
         <div className="space-y-6 mb-12 text-foreground leading-relaxed">
           <p>
-            Hi, I’m Mohit — a Python-driven software developer and data scientist passionate about quantitative finance.
-            I build systematic trading strategies, backtesting frameworks, and data-driven financial models. I enjoy
-            writing about finance, trading strategies, and my personal projects in the quant space. When I’m not deep in
-            data or markets, you’ll find me exploring new cafés, experimenting with coffee, dabbling in photography, or
-            diving further into the stock market.
+            Hey! I’m Mohit, a python geek, developer and a data scientist passionate about quantitative finance. I build
+            systematic trading strategies, backtesting frameworks, and data-driven financial models. I enjoy writing
+            about finance, trading strategies, and my personal projects in the quant space. When I’m not deep in data or
+            markets, you’ll find me exploring new cafés, experimenting with coffee, dabbling in photography, or diving
+            further into the stock market.
           </p>
 
           <p>
-            I'm a student at <ExternalLink href="#">University Name</ExternalLink>, majoring in Computer Science. This
-            past summer, I worked as a <ExternalLink href="#">software engineer intern</ExternalLink> at{" "}
+            I'm a student at <ExternalLink href="https://www.fsu.edu/">University Name</ExternalLink>, majoring in
+            Computer Science. This past summer, I worked as a{" "}
+            <ExternalLink href="#">software engineer intern</ExternalLink> at{" "}
             <ExternalLink href="#">Company</ExternalLink>.
           </p>
 
