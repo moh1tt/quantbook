@@ -64,13 +64,19 @@ const Index = () => {
             <ExternalLink href="https://intranet.apd.myflorida.com/">APD</ExternalLink> - data analyst
           </p>
           <p>
-            <ExternalLink href="https://bin-ouyang.com/people/">S&P Global</ExternalLink> - software developer
+            <ExternalLink href="https://bin-ouyang.com/people/">Florida State University</ExternalLink> - researcher
           </p>
           <p>
             <ExternalLink href="https://www.spglobal.com/en">S&P Global</ExternalLink> - software developer
           </p>
           <p>
-            read more on <ExternalLink href="#">linkedIn</ExternalLink> /{" "}
+            <ExternalLink href="https://www.lg.com/in/">LG</ExternalLink> - software developer intern
+          </p>
+          <p>
+            <ExternalLink href="https://www.itchotels.com/in/en">ITC Hotels</ExternalLink> - software developer intern
+          </p>
+          <p>
+            read more on <ExternalLink href="https://www.linkedin.com/in/moh1tt">linkedIn</ExternalLink> /{" "}
             <ExternalLink href="#" proud>
               resume
             </ExternalLink>
