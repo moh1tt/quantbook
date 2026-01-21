@@ -25,9 +25,11 @@ const Index = () => {
         {/* Bio */}
         <div className="space-y-6 mb-12 text-foreground leading-relaxed">
           <p>
-            I'm [Your Name], and I've explored various projects, built multiple software products, and founded a
-            company. I thrive in spaces where I'm not the smartest in the room but I can almost talk to anyone about
-            anything.
+            Hi, I’m Mohit — a Python-driven software developer and data scientist passionate about quantitative finance.
+            I build systematic trading strategies, backtesting frameworks, and data-driven financial models. I enjoy
+            writing about finance, trading strategies, and my personal projects in the quant space. When I’m not deep in
+            data or markets, you’ll find me exploring new cafés, experimenting with coffee, dabbling in photography, or
+            diving further into the stock market.
           </p>
 
           <p>
@@ -122,10 +124,20 @@ const Index = () => {
 
         {/* Social Links */}
         <footer className="flex items-center gap-6 pt-8 border-t border-border">
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
             <Linkedin className="w-5 h-5" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
             <Twitter className="w-5 h-5" />
           </a>
           <a href="mailto:your@email.com" className="text-muted-foreground hover:text-foreground transition-colors">
