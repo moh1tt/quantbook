@@ -102,10 +102,10 @@ const Index = () => {
         {/* Education */}
         <Section title="education">
           <p>
-            masters in CS at <ExternalLink href="#">university</ExternalLink> (2024-26)
+            masters in DS at <ExternalLink href="https://www.fsu.edu/">florida state university</ExternalLink> (2023-25)
           </p>
           <p>
-            bachelors in CS at <ExternalLink href="#">college</ExternalLink> (2020-24)
+            bachelors in CS at <ExternalLink href="#">christ university</ExternalLink> (2018-22)
           </p>
         </Section>
 
