@@ -9,7 +9,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <ThemeToggle />
 
-      <main className="max-w-2xl mx-auto px-6 py-16 md:py-24">
+      <main className="max-w-2xl mx-auto px-6 md:px-8 py-16 md:py-24 w-full box-border">
         {/* Header */}
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl text-foreground mb-1.5 font-medium">mohit appari</h1>
