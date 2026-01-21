@@ -8,7 +8,7 @@ const Index = () => {
     <div className="min-h-screen bg-background flex justify-center">
       <ThemeToggle />
 
-      <main className="max-w-2xl w-full px-3 py-10 md:py-16">
+      <main className="max-w-2xl w-full px-2 py-10 md:py-16">
         {/* Header */}
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl text-foreground mb-1.5 font-medium">mohit appari</h1>
