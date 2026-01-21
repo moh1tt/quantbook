@@ -93,8 +93,9 @@
   }
 
   body {
-    @apply bg-background text-foreground font-mono antialiased;
+    @apply bg-background text-foreground font-mono antialiased text-sm;
     font-family: 'JetBrains Mono', monospace;
+    letter-spacing: -0.01em;
   }
 
   h1, h2, h3, h4, h5, h6 {
