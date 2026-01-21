@@ -44,7 +44,7 @@ const BlogPost = () => {
           </p>
         </header>
 
-        <article className="prose prose-neutral dark:prose-invert max-w-none">
+        <article className="prose max-w-none prose-headings:text-foreground prose-headings:font-medium prose-p:text-foreground prose-strong:text-proud prose-a:text-proud prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-proud/80 prose-ul:text-foreground prose-ol:text-foreground prose-li:text-foreground prose-code:text-proud prose-code:bg-muted prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-hr:border-border">
           <Component />
         </article>
       </main>
