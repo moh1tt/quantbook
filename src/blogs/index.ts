@@ -1,5 +1,5 @@
 // Blog registry - import all MDX files here
-import * as momentumsignal from "./momentumsignal.mdx";
+import * as papertrade1 from "./papertrade1.mdx";
 
 export interface BlogMeta {
   title: string;
@@ -16,7 +16,7 @@ export interface BlogPost {
 }
 
 // Add new blog imports here
-const blogModules = [momentumsignal];
+const blogModules = [papertrade1];
 
 export const blogs: BlogPost[] = blogModules.map((mod) => ({
   meta: mod.meta,
