@@ -16,9 +16,7 @@ const Index = () => {
             <MapPin className="w-4 h-4 text-proud" />
             <span>tallahassee, fl</span>
           </div>
-          <p className="text-muted-foreground">
-            domains: software, finance, ai, forecasting, backtesting, and systematic trading
-          </p>
+          <p className="text-muted-foreground">domains: ai, finance, dev, systematic trading</p>
         </header>
 
         {/* Bio */}
@@ -58,7 +56,6 @@ const Index = () => {
             ps: i'm most proud of all the things in <span className="text-proud">red</span> :)
           </p>
         </div>
-
 
         {/* Past Work */}
         <Section title="past work">
@@ -101,7 +98,6 @@ const Index = () => {
             bachelors in CS at <ExternalLink href="#">college</ExternalLink> (2020-24)
           </p>
         </Section>
-
 
         {/* Tip */}
         <Section title="tip me">
