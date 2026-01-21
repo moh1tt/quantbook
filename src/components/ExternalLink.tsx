@@ -15,7 +15,7 @@ const ExternalLink = ({ href, children, proud = false, className }: ExternalLink
       rel="noopener noreferrer"
       className={cn(
         "underline underline-offset-2 transition-colors",
-        proud ? "text-proud hover:text-proud/80" : "text-link hover:text-link-hover",
+        proud ? "text-proud hover:text-proud/80" : "text-foreground hover:text-foreground/70",
         className
       )}
     >
