@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react";
+import { MapPin, Linkedin, Twitter, Mail } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 import ExternalLink from "@/components/ExternalLink";
 import Section from "@/components/Section";
@@ -105,6 +105,19 @@ const Index = () => {
             <ExternalLink href="#">buymeacoffee</ExternalLink>
           </p>
         </Section>
+
+        {/* Social Links */}
+        <footer className="flex items-center gap-6 pt-8 border-t border-border">
+          <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Linkedin className="w-5 h-5" />
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Twitter className="w-5 h-5" />
+          </a>
+          <a href="mailto:your@email.com" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Mail className="w-5 h-5" />
+          </a>
+        </footer>
       </main>
     </div>
   );
