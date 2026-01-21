@@ -15,7 +15,7 @@ const BlogList = () => {
               {blog.meta.title}
             </span>
             <span className="text-muted-foreground text-sm whitespace-nowrap">
-              {blog.meta.date} · {blog.meta.readTime}
+              {blog.meta.readTime} · {blog.meta.date}
             </span>
           </div>
         </Link>
