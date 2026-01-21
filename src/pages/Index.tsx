@@ -6,10 +6,10 @@ import PhotoGallery from "@/components/PhotoGallery";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex justify-center">
       <ThemeToggle />
 
-      <main className="max-w-2xl mx-auto px-4 py-12 md:py-20">
+      <main className="max-w-2xl w-full px-4 py-12 md:py-20">
         {/* Header */}
         <header className="mb-12">
           <h1 className="text-4xl md:text-5xl text-foreground mb-1.5 font-medium">mohit appari</h1>
