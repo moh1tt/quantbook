@@ -121,8 +121,8 @@
   z-index: 0;
   pointer-events: none;
   background-image: 
-    linear-gradient(hsl(0 70% 50% / 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, hsl(0 70% 50% / 0.08) 1px, transparent 1px);
+    linear-gradient(hsl(0 70% 50% / 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(0 70% 50% / 0.05) 1px, transparent 1px);
   background-size: 50px 50px;
   -webkit-mask-image: linear-gradient(
     90deg,
@@ -149,6 +149,6 @@
 
 .dark .grid-background {
   background-image: 
-    linear-gradient(hsl(0 70% 55% / 0.18) 1px, transparent 1px),
-    linear-gradient(90deg, hsl(0 70% 55% / 0.18) 1px, transparent 1px);
+    linear-gradient(hsl(0 70% 55% / 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(0 70% 55% / 0.12) 1px, transparent 1px);
 }
