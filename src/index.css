@@ -102,3 +102,30 @@
     @apply font-mono font-normal;
   }
 }
+
+/* Animated grid background */
+@keyframes grid-pulse {
+  0%, 100% {
+    opacity: 0.03;
+  }
+  50% {
+    opacity: 0.06;
+  }
+}
+
+.grid-background {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: 
+    linear-gradient(hsl(var(--proud) / 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--proud) / 0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation: grid-pulse 4s ease-in-out infinite;
+}
+
+.dark .grid-background {
+  background-image: 
+    linear-gradient(hsl(var(--proud) / 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--proud) / 0.12) 1px, transparent 1px);
+}
