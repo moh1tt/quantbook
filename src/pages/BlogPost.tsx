@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
+import { MDXProvider } from "@mdx-js/react";
 import { sortedBlogs } from "@/blogs";
 import ThemeToggle from "@/components/ThemeToggle";
 
@@ -45,7 +46,9 @@ const BlogPost = () => {
         </header>
 
         <article className="prose max-w-none font-mono text-base prose-headings:text-foreground prose-headings:font-medium prose-headings:font-mono prose-h1:text-2xl prose-h2:text-xl prose-h3:text-lg prose-p:text-foreground prose-p:leading-relaxed prose-strong:text-proud prose-a:text-proud prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-proud/80 prose-ul:text-foreground prose-ol:text-foreground prose-li:text-foreground prose-code:text-proud prose-code:bg-muted prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:font-mono prose-hr:border-border">
-          <Component />
+          <MDXProvider>
+            <Component />
+          </MDXProvider>
         </article>
       </main>
     </div>
