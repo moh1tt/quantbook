@@ -1,5 +1,6 @@
 // Blog registry - import all MDX files here
 import * as papertrade1 from "./papertrade1.mdx";
+import * as dayOneQuant from "./dayOneQuant.mdx";
 
 export interface BlogMeta {
   title: string;
@@ -16,7 +17,7 @@ export interface BlogPost {
 }
 
 // Add new blog imports here
-const blogModules = [papertrade1];
+const blogModules = [papertrade1, dayOneQuant];
 
 export const blogs: BlogPost[] = blogModules.map((mod) => ({
   meta: mod.meta,
