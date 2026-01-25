@@ -1,6 +1,5 @@
-// Blog registry - import all MDX files here
-import * as papertrade1 from "./papertrade1.mdx";
-import * as dayOneQuant from "./dayOneQuant.mdx";
+// Blog registry - auto-imports all MDX files
+import { ComponentType } from "react";
 
 export interface BlogMeta {
   title: string;
@@ -13,13 +12,16 @@ export interface BlogMeta {
 
 export interface BlogPost {
   meta: BlogMeta;
-  Component: React.ComponentType;
+  Component: ComponentType;
 }
 
-// Add new blog imports here
-const blogModules = [papertrade1, dayOneQuant];
+// Auto-import all MDX files from this directory
+const blogModules = import.meta.glob<{
+  default: ComponentType;
+  meta: BlogMeta;
+}>("./*.mdx", { eager: true });
 
-export const blogs: BlogPost[] = blogModules.map((mod) => ({
+export const blogs: BlogPost[] = Object.values(blogModules).map((mod) => ({
   meta: mod.meta,
   Component: mod.default,
 }));
