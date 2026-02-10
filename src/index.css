@@ -106,7 +106,7 @@
 /* Subtle animated background */
 @keyframes ambient-pulse {
   0%, 100% {
-    opacity: 0.4;
+    opacity: 0.3;
   }
   50% {
     opacity: 1;
@@ -119,15 +119,15 @@
   z-index: 0;
   pointer-events: none;
   background: 
-    radial-gradient(circle 800px at 30% 20%, hsl(0 70% 50% / 0.025), transparent 70%),
-    radial-gradient(circle 600px at 70% 80%, hsl(195 60% 40% / 0.02), transparent 70%);
-  animation: ambient-pulse 30s ease-in-out infinite;
+    radial-gradient(circle 800px at 30% 20%, hsl(0 70% 50% / 0.06), transparent 70%),
+    radial-gradient(circle 600px at 70% 80%, hsl(195 60% 40% / 0.05), transparent 70%);
+  animation: ambient-pulse 20s ease-in-out infinite;
 }
 
 .dark .ambient-bg {
   background: 
-    radial-gradient(circle 800px at 30% 20%, hsl(0 70% 55% / 0.045), transparent 70%),
-    radial-gradient(circle 600px at 70% 80%, hsl(195 60% 55% / 0.035), transparent 70%);
-  animation: ambient-pulse 30s ease-in-out infinite;
+    radial-gradient(circle 800px at 30% 20%, hsl(0 70% 55% / 0.09), transparent 70%),
+    radial-gradient(circle 600px at 70% 80%, hsl(195 60% 55% / 0.07), transparent 70%);
+  animation: ambient-pulse 20s ease-in-out infinite;
 }
 
