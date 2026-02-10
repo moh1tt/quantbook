@@ -8,7 +8,8 @@ import { featuredBlogs } from "@/blogs";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background flex justify-center">
+    <div className="min-h-screen bg-background flex justify-center relative">
+      <div className="ambient-bg" />
       <ThemeToggle />
 
       <main className="max-w-2xl w-full px-2 py-10 md:py-16">
