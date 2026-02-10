@@ -103,3 +103,41 @@
   }
 }
 
+/* Subtle animated background */
+@keyframes gradient-drift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 100%;
+  }
+}
+
+.ambient-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: 
+    radial-gradient(ellipse 80% 60% at 20% 30%, hsl(0 70% 50% / 0.04), transparent),
+    radial-gradient(ellipse 60% 80% at 80% 70%, hsl(195 60% 40% / 0.04), transparent),
+    radial-gradient(ellipse 70% 50% at 50% 50%, hsl(0 0% 50% / 0.03), transparent);
+  background-size: 200% 200%;
+  animation: gradient-drift 20s ease-in-out infinite;
+}
+
+.dark .ambient-bg {
+  background: 
+    radial-gradient(ellipse 80% 60% at 20% 30%, hsl(0 70% 55% / 0.06), transparent),
+    radial-gradient(ellipse 60% 80% at 80% 70%, hsl(195 60% 55% / 0.05), transparent),
+    radial-gradient(ellipse 70% 50% at 50% 50%, hsl(220 15% 50% / 0.04), transparent);
+  background-size: 200% 200%;
+  animation: gradient-drift 20s ease-in-out infinite;
+}
+
