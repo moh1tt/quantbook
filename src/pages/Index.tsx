@@ -32,7 +32,7 @@ const Index = () => {
           </p>
           <p>
             Outside of work, I'm building <ExternalLink href='#' proud>atlas</ExternalLink> a systematic trading platform written in native 
-            python, designed to be fast, flexible and scalable. It's my playground to research, implement trading stratergies, backtest and paper trade them all 
+            python, designed to be fast, flexible and scalable. A personal playground to research, implement trading strategies, backtest and papertrade, all 
             in one unified platform integrating ai and data driven insights.
           </p>
 
@@ -82,19 +82,19 @@ const Index = () => {
           </p>
         </Section>
 
-        {/* Pet Projects */}
+       {/* Pet Projects */}
         <Section title="pet projects">
           <p>
-            <ExternalLink href="#">project-one</ExternalLink>
+            <ExternalLink href="https://github.com/moh1tt/baywheels">baywheels</ExternalLink> - Building a Data Engineering Pipeline Analyzing BayWheels Bike Data
           </p>
           <p>
-            <ExternalLink href="#">project-two</ExternalLink>
+            <ExternalLink href="https://github.com/moh1tt/langchain-qa-sta5635">langchain-qa-sta5635</ExternalLink> - RAG based LLM using Langchain
           </p>
           <p>
-            <ExternalLink href="#">project-three</ExternalLink>
+            <ExternalLink href="https://github.com/moh1tt/pennyai">pennyai</ExternalLink> - Stocks Dashboard and Analytics from Reddit
           </p>
           <p>
-            read more on <ExternalLink href="#">github</ExternalLink>
+            read more on <ExternalLink href="https://github.com/moh1tt">github</ExternalLink>
           </p>
         </Section>
 
@@ -109,11 +109,11 @@ const Index = () => {
         </Section>
 
         {/* Tip */}
-        <Section title="tip me">
+        {/* <Section title="tip me">
           <p>
             <ExternalLink href="#">buymeacoffee</ExternalLink>
           </p>
-        </Section>
+        </Section> */}
 
         {/* Social Links */}
         <footer className="flex items-center gap-6 pt-8 border-t border-border">
@@ -133,7 +133,7 @@ const Index = () => {
           >
             <Twitter className="w-5 h-5" />
           </a>
-          <a href="mailto:your@email.com" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="mailto:mohitt.appari@email.com" className="text-muted-foreground hover:text-foreground transition-colors">
             <Mail className="w-5 h-5" />
           </a>
         </footer>
