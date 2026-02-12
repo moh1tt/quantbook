@@ -20,32 +20,30 @@ const Index = () => {
             <MapPin className="w-4 h-4 text-proud" />
             <span>tallahassee, fl</span>
           </div>
-          <p className="text-muted-foreground">domains: ai, finance, dev, systematic trading</p>
+          <p className="text-muted-foreground">domains: quant, finance, stats, ai, ml, python</p>
         </header>
 
         {/* Bio */}
         <div className="space-y-6 mb-12 text-foreground leading-relaxed">
           <p>
-            Hey! I’m Mohit, a python geek, developer and a data scientist passionate about quantitative finance. I build
-            systematic trading strategies, backtesting frameworks, and data-driven financial models.
+            Hey! I’m Mohit, experienced developer and a data scientist with a passion for finance, trading and quantitative analysis. Currently working as a data analyst
+            at <ExternalLink href="https://intranet.apd.myflorida.com/" proud>apd</ExternalLink>, where a typical day involves diving into data, analyzing and processing it to drive 
+            insights and support decision-making.
           </p>
           <p>
-            Currently, I'm building{" "}
-            <ExternalLink href="#" proud>
-              atlas
-            </ExternalLink>
-            , a tool to make automated trades based on strategies and data.
+            Outside of work, I'm building <ExternalLink href='#' proud>atlas</ExternalLink> a systematic trading platform written in native 
+            python, designed to be fast, flexible and scalable. It's my playground to research, implement trading stratergies, backtest and paper trade them all 
+            in one unified platform integrating ai and data driven insights.
           </p>
 
           <p>
-            Outside of work, I enjoy writing about finance, trading strategies, and my personal projects in the quant
-            space. When I’m not deep in data or markets, you’ll find me exploring new cafés, experimenting with coffee,
-            dabbling in photography, or diving further into the stock market.
+            I enjoy writing, be it in finance, data, or some random project that I explore. When I’m not deep in data or markets, you’ll find me exploring new cafés, experimenting with coffee,
+            dabbling in photography, or just chilling with some good music and gaming. 
           </p>
 
-          {/* <p className="italic text-muted-foreground">
+          <p className="italic text-muted-foreground">
             ps: i'm most proud of all the things in <span className="text-proud">red</span> :)
-          </p> */}
+          </p>
         </div>
 
         {/* Good Reads */}
