@@ -109,11 +109,11 @@ const Index = () => {
         </Section>
 
         {/* Tip */}
-        {/* <Section title="tip me">
+        <Section title="Photography">
           <p>
-            <ExternalLink href="#">buymeacoffee</ExternalLink>
+            View my clicks at <ExternalLink href="https://vsco.co/moh1tttt/gallery" proud>VSCO</ExternalLink>
           </p>
-        </Section> */}
+        </Section>
 
         {/* Social Links */}
         <footer className="flex items-center gap-6 pt-8 border-t border-border">
