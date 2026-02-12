@@ -118,7 +118,7 @@ const Index = () => {
         {/* Social Links */}
         <footer className="flex items-center gap-6 pt-8 border-t border-border">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/moh1tt"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -126,7 +126,7 @@ const Index = () => {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="#"
+            href="https://x.com/moh1tt"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
