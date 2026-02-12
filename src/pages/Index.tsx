@@ -59,21 +59,26 @@ const Index = () => {
 
         {/* Past Work */}
         <Section title="past work">
-          <p>
-            <ExternalLink href="https://intranet.apd.myflorida.com/">Agency for person with disabilities</ExternalLink> - data analyst 
-          </p>
-          <p>
-            <ExternalLink href="https://bin-ouyang.com/people/">Florida State University</ExternalLink> - researcher
-          </p>
-          <p>
-            <ExternalLink href="https://www.spglobal.com/en">S&P Global</ExternalLink> - software developer
-          </p>
-          <p>
-            <ExternalLink href="https://www.lg.com/in/">LG India</ExternalLink> - software developer intern
-          </p>
-          <p>
-            <ExternalLink href="https://www.itchotels.com/in/en">ITC</ExternalLink> - software developer intern
-          </p>
+          <div className="flex justify-between items-baseline">
+            <p><ExternalLink href="https://intranet.apd.myflorida.com/">Agency for person with disabilities</ExternalLink> - data analyst</p>
+            <span className="text-muted-foreground text-sm whitespace-nowrap ml-4">jun 2025 - present</span>
+          </div>
+          <div className="flex justify-between items-baseline">
+            <p><ExternalLink href="https://bin-ouyang.com/people/">Florida State University</ExternalLink> - researcher</p>
+            <span className="text-muted-foreground text-sm whitespace-nowrap ml-4">aug 2024 - may 2025</span>
+          </div>
+          <div className="flex justify-between items-baseline">
+            <p><ExternalLink href="https://www.spglobal.com/en">S&P Global</ExternalLink> - software developer</p>
+            <span className="text-muted-foreground text-sm whitespace-nowrap ml-4">jun 2022 - jul 2023</span>
+          </div>
+          <div className="flex justify-between items-baseline">
+            <p><ExternalLink href="https://www.lg.com/in/">LG India</ExternalLink> - software developer intern</p>
+            <span className="text-muted-foreground text-sm whitespace-nowrap ml-4">jan 2022 - may 2022</span>
+          </div>
+          <div className="flex justify-between items-baseline">
+            <p><ExternalLink href="https://www.itchotels.com/in/en">ITC</ExternalLink> - software developer intern</p>
+            <span className="text-muted-foreground text-sm whitespace-nowrap ml-4">jun 2021 - aug 2021</span>
+          </div>
           <p>
             read more on <ExternalLink href="https://www.linkedin.com/in/moh1tt">linkedIn</ExternalLink> /{" "}
             <ExternalLink href="#" proud>
