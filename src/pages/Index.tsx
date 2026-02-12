@@ -81,7 +81,7 @@ const Index = () => {
           </div>
           <p>
             read more on <ExternalLink href="https://www.linkedin.com/in/moh1tt">linkedIn</ExternalLink> /{" "}
-            <ExternalLink href="#" proud>
+            <ExternalLink href="https://docs.google.com/document/d/12sSSw24j-N5pouX4fU37JthdF12QBK3wXw5rPgj03Q4/edit?usp=sharing" proud>
               resume
             </ExternalLink>
           </p>
