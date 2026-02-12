@@ -20,7 +20,7 @@ const Index = () => {
             <MapPin className="w-4 h-4 text-proud" />
             <span>tallahassee, fl</span>
           </div>
-          <p className="text-muted-foreground">domains: quant, finance, stats, ai, ml, python</p>
+          <p className="text-muted-foreground">domains: quant, finance, math, stats, ai, ml, python</p>
         </header>
 
         {/* Bio */}
@@ -60,7 +60,7 @@ const Index = () => {
         {/* Past Work */}
         <Section title="past work">
           <p>
-            <ExternalLink href="https://intranet.apd.myflorida.com/">APD</ExternalLink> - data analyst
+            <ExternalLink href="https://intranet.apd.myflorida.com/">Agency for person with disabilities</ExternalLink> - data analyst 
           </p>
           <p>
             <ExternalLink href="https://bin-ouyang.com/people/">Florida State University</ExternalLink> - researcher
@@ -69,7 +69,7 @@ const Index = () => {
             <ExternalLink href="https://www.spglobal.com/en">S&P Global</ExternalLink> - software developer
           </p>
           <p>
-            <ExternalLink href="https://www.lg.com/in/">LG</ExternalLink> - software developer intern
+            <ExternalLink href="https://www.lg.com/in/">LG India</ExternalLink> - software developer intern
           </p>
           <p>
             <ExternalLink href="https://www.itchotels.com/in/en">ITC</ExternalLink> - software developer intern
